@@ -1,0 +1,30 @@
+PAYRAVE
+DjangoCMS-RAVE-plugin
+A rave( flutterwave payment api ) Plugin for Django CMS
+
+
+# HOW TO INSTALL
+=====
+Payrave
+=====
+
+Payrave is a simple Django cms plugin for RAVE(flutterwave api) payment integration.
+
+You will need to register with rave first
+rave.co
+and create a pay now button, please note the details of the button link.
+
+Quick start
+-----------
+
+1. Add "payrave" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'payrave',
+    ]
+
+
+2. Run `python manage.py migrate payrave` to create the polls models.
+
+And voila....

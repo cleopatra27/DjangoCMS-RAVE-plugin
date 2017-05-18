@@ -17,14 +17,15 @@ and create a pay now button, please note the details of the button link.
 Quick start
 -----------
 
-1. Add "payrave" to your INSTALLED_APPS setting like this::
+1. pip install payrave
+
+2. Add "payrave" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
         'payrave',
     ]
 
-
-2. Run `python manage.py migrate payrave` to create the polls models.
+3. Run python manage.py migrate payrave` to create the polls models.
 
 And voila....

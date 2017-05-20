@@ -39,6 +39,23 @@ INSTALLED_APPS = [
 python manage.py migrate payrave 
 
 ```
+
+## USAGE
+FIRST CREATE A BUTTON IN PAYRAVE AND NOTE THE DETAILS OF THE BUTTON!!!!!
+
+1.click the add plugin button and pick payrave.
+
+![payrave1](https://cloud.githubusercontent.com/assets/18359815/26274850/96155542-3d4b-11e7-8acc-70ee968a720d.jpg)
+
+
+2. fill up details from payrave button and save
+
+![payrave2](https://cloud.githubusercontent.com/assets/18359815/26274851/9e555428-3d4b-11e7-9a5b-85e3d4147d9a.jpg)
+
+3. your button is up!
+
+![payrave3](https://cloud.githubusercontent.com/assets/18359815/26274854/a2bacc8c-3d4b-11e7-87a5-b2cdc80e7080.jpg)
+
 ENJOY!!
 
 ## Built With

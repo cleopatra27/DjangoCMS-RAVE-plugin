@@ -3,13 +3,17 @@
     data-PBFPubKey="{{ instance.data_PBFPubKey }}"
     data-txref="{{ instance.data_txref }}"
     data-amount="{{ instance.data_amount }}"
+    {% if user.is_authenticated %}
+    data-customer_email="{{ user.email }}"
+     {% else %}
     data-customer_email="{{ instance.data_customer_email }}"
+    {% endif %}
     data-currency = "{{ instance.data_currency }}"
     data-pay_button_text = "{{ instance.data_pay_button_text }}"
     data-country="{{ instance.data_countryguest_name }}"
     data-custom_title = "{{ instance.data_custom_title }}"
     data-custom_description = "{{ instance.data_custom_description }}"
-    data-redirect_url = "school.puurp.com{{ instance.data_redirect_url }}"
+    data-redirect_url = "{{ instance.data_redirect_url }}"
     data-custom_logo = "{{ instance.data_custom_logo }}"
     data-payment_method = "{{ instance.data_payment_methodguest_name }}"
     data-exclude_banks="{{ instance.data_exclude_banks }}"></a>

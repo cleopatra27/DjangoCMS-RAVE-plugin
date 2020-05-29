@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='PayRaveModel',
             fields=[
-                ('cmsplugin_ptr', models.OneToOneField(primary_key=True, serialize=False, auto_created=True, related_name='payrave_payravemodel', parent_link=True, to='cms.CMSPlugin')),
+                ('cmsplugin_ptr', models.OneToOneField(primary_key=True, serialize=False, auto_created=True, related_name='payrave_payravemodel', parent_link=True, to='cms.CMSPlugin', on_delete=models.CASCADE)),
                 ('guest_name', models.CharField(max_length=50, default='Guest')),
             ],
             options={
